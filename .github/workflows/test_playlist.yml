@@ -1,51 +1,283 @@
-name: Test IPTV file quality
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,INFO Kanal
+http://host.phorious.art/validation/463?deviceMac=10:27:BE:25:67:80&split=60f9fcee5b5e7a3a68249686305a534f&smart=1
 
-on:
-  push:
-    branches: [ master ]
-  workflow_dispatch:
 
-jobs:
-  test:
-    runs-on: ubuntu-latest
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTS 1
+http://host.phorious.art/validation/3?deviceMac=10:27:BE:25:67:80&split=7100ef8924e97c497006694af741bf9c&smart=1
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v6
 
-      - name: Setup Node
-        uses: actions/setup-node@v6
-        with:
-          node-version: "20.10.x"
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTS 2
+http://host.phorious.art/validation/2?deviceMac=10:27:BE:25:67:80&split=d8d6f5175d845cae76d9112c4192ef2c&smart=1
 
-      - name: Install m3u-linter and check the playlist
-        run: |
-          npm install -g m3u-linter || true
-          cat <<EOF > M3u-linter.config.json
-            {
-              "files": ["playlist1.m3u", "playlist2.m3u"],
-              "rules": {
-                "no-empty-lines": true,
-                "require-header": true,
-                "attribute-quotes": true,
-                "require-info": true,
-                "no-trailing-spaces": true,
-                "no-whitespace-before-title": true,
-                "no-multi-spaces": false,
-                "no-extra-comma": true,
-                "space-before-paren": false,
-                "no-dash": true
-              }
-            }
-          EOF
-          ls -lar ./ || true
-          cat playlist.m3u8 || true
-          m3u-linter -c ./M3u-linter.config.json ./playlist.m3u8
 
-      - name: Install IPTV Checker and check the playlist
-        run: |
-          npm install -g iptv-checker || true
-          mkdir -p output
-          sudo apt-get install -y ffmpeg
-          iptv-checker -o output -p 100 -t 120000 ./playlist.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTS 3
+http://host.phorious.art/validation/21?deviceMac=10:27:BE:25:67:80&split=2a147ddca12973eaa852922a0c5b7878&smart=1
 
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTS Svet
+http://host.phorious.art/validation/182?deviceMac=10:27:BE:25:67:80&split=63a7f5c31a1e6a75060f5b065d31e2f0&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,PrvaTV
+http://host.phorious.art/validation/10?deviceMac=10:27:BE:25:67:80&split=ff502562fd602e2e55d043563c58bb9a&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Pink TV
+http://host.phorious.art/validation/12?deviceMac=10:27:BE:25:67:80&split=6de60e9262e94b4a3aea3468aeb4cb20&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Una TV Srbija
+http://host.phorious.art/validation/1652?deviceMac=10:27:BE:25:67:80&split=acb7a9e5314e2f6c9a5ee475ec862fbe&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,N1 TV
+http://host.phorious.art/validation/271?deviceMac=10:27:BE:25:67:80&split=8ddf20f33d8abf5c3c679faa62c97280&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Kurir TV HD
+http://host.phorious.art/validation/1786?deviceMac=10:27:BE:25:67:80&split=746b3ceca5c0178c4e11be0040e54fdf&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Tanjug TV HD *hevc*
+http://host.phorious.art/validation/1794?deviceMac=10:27:BE:25:67:80&split=2e7ecdafea595fc03e818124b8383e2e&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Blic TV HD
+http://host.phorious.art/validation/1921?deviceMac=10:27:BE:25:67:80&split=a6b9a10f53d3a0c9056ad50c52d9a38c&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,TV K1
+http://host.phorious.art/validation/680?deviceMac=10:27:BE:25:67:80&split=faed5b0e964cbbc21dc0bc2bef67d925&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Insajder TV
+http://host.phorious.art/validation/153?deviceMac=10:27:BE:25:67:80&split=fc13dc4eadd1a8ac2e6cf8f41e2c5325&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Informer TV HD
+http://host.phorious.art/validation/1940?deviceMac=10:27:BE:25:67:80&split=834b786616327c424e4fed1c53d4add7&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Euronews Srbija
+http://host.phorious.art/validation/490?deviceMac=10:27:BE:25:67:80&split=6ad5c120af32b263992a9ca6da7ff104&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Russia Today Balkan
+http://host.phorious.art/validation/1750?deviceMac=10:27:BE:25:67:80&split=f684ab71a28ec53200b9e950e82ddd8e&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Newsmax Balkan
+http://host.phorious.art/validation/1751?deviceMac=10:27:BE:25:67:80&split=23c105c3dc0bedd185818bc9ef9bda66&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,B92
+http://host.phorious.art/validation/24?deviceMac=10:27:BE:25:67:80&split=9370519ee4a55d5103b41a622f0c8270&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Nova TV S
+http://host.phorious.art/validation/1386?deviceMac=10:27:BE:25:67:80&split=9940e9f63a6b280e8bd2aa3ecbc40388&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Nova TV S.
+http://host.phorious.art/validation/677?deviceMac=10:27:BE:25:67:80&split=c8a626fa31d087457d77bc1f5171dfa4&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RedTV Hevc
+http://host.phorious.art/validation/1416?deviceMac=10:27:BE:25:67:80&split=317ba9dcd7d6ad65e983e982a8f3ce9b&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Hype TV
+http://host.phorious.art/validation/1536?deviceMac=10:27:BE:25:67:80&split=be7f4361d9d4436b019a656b4e3b7922&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Prva Plus
+http://host.phorious.art/validation/149?deviceMac=10:27:BE:25:67:80&split=671c81b2684cb2cffbd535cc1c6270d8&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Prva Max
+http://host.phorious.art/validation/511?deviceMac=10:27:BE:25:67:80&split=284bd2f9809a0c17d0d3a558306d1460&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Prva World
+http://host.phorious.art/validation/1260?deviceMac=10:27:BE:25:67:80&split=ba2c8fe0126135f2b5d7b9b93af8a6fd&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Prva Life
+http://host.phorious.art/validation/1655?deviceMac=10:27:BE:25:67:80&split=ea755388afb85a9e8735d16f3367db21&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Prva Kick
+http://host.phorious.art/validation/1653?deviceMac=10:27:BE:25:67:80&split=b7185f2f350c52a596e298704d49829b&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Prva Files
+http://host.phorious.art/validation/1654?deviceMac=10:27:BE:25:67:80&split=674f0e8a8a1ac8190d6e3c50f0c0ff87&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Happy
+http://host.phorious.art/validation/148?deviceMac=10:27:BE:25:67:80&split=2e06a508259c45d072ed3d69219c2d4f&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Happy Reality
+http://host.phorious.art/validation/1126?deviceMac=10:27:BE:25:67:80&split=7e6b70c06fd3ea8315f2f57e8d28ad0c&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Moj Happy Zivot
+http://host.phorious.art/validation/1909?deviceMac=10:27:BE:25:67:80&split=faa6b56a0032bca9edddb70b29e9aa45&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Moja Happy Zemlja
+http://host.phorious.art/validation/1912?deviceMac=10:27:BE:25:67:80&split=a7c320d2dc2c93b4db19d725bcd2571f&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Moja Happy Muzika
+http://host.phorious.art/validation/1911?deviceMac=10:27:BE:25:67:80&split=bfb4e3cf9d1baddaf51b50ba999dde53&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTRS
+http://host.phorious.art/validation/109?deviceMac=10:27:BE:25:67:80&split=9b228b21ef159fa0f37f80f9c1019e9c&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTV 1
+http://host.phorious.art/validation/178?deviceMac=10:27:BE:25:67:80&split=75ed48602e524a266f999f14da1f0e7b&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTV 2
+http://host.phorious.art/validation/399?deviceMac=10:27:BE:25:67:80&split=11d02f40fb6c2cc6e0f42292540378cc&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,STUDIO B
+http://host.phorious.art/validation/942?deviceMac=10:27:BE:25:67:80&split=c882fc77de87e05f93804155a8d9ec1b&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,KCN 1
+http://host.phorious.art/validation/184?deviceMac=10:27:BE:25:67:80&split=018ff70b0197a010250201db1ed94558&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTS Drama
+http://host.phorious.art/validation/1437?deviceMac=10:27:BE:25:67:80&split=3797625d27371c44a3b68b07e5af57ea&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTS Trezor
+http://host.phorious.art/validation/62?deviceMac=10:27:BE:25:67:80&split=bb4c522d31700d65e37455ec0bbbe022&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTS Zivot
+http://host.phorious.art/validation/1120?deviceMac=10:27:BE:25:67:80&split=8e365411ea0f43268d77e7975182760a&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTS Kolo
+http://host.phorious.art/validation/1491?deviceMac=10:27:BE:25:67:80&split=ebf72cb08e1b418a010ad85aed186728&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTS Poletarac
+http://host.phorious.art/validation/1666?deviceMac=10:27:BE:25:67:80&split=bec106a3420c3f24578631f5cee56412&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Hram TV
+http://host.phorious.art/validation/1363?deviceMac=10:27:BE:25:67:80&split=2ecc9b85a8bbdfeac57aad1d5fae80ae&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Blagoslov _TV
+http://host.phorious.art/validation/1541?deviceMac=10:27:BE:25:67:80&split=658d7de1bed9c9f1ab4566f01d22cc02&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Blagovesti TV
+http://host.phorious.art/validation/1544?deviceMac=10:27:BE:25:67:80&split=8325236b7a7453b427f358bfc5282e5b&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,NASA TV - Timisoara
+http://host.phorious.art/validation/1526?deviceMac=10:27:BE:25:67:80&split=b1ccb861b3c4de2bd4637831647392f8&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,KTV Zrenjanin
+http://host.phorious.art/validation/1952?deviceMac=10:27:BE:25:67:80&split=3a7af0342893360c3e8f8b4b6543d030&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTV Novi Pazar
+http://host.phorious.art/validation/497?deviceMac=10:27:BE:25:67:80&split=d2e01d12b85b21c9b55cde57de80cdfb&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Santos TV
+http://host.phorious.art/validation/1381?deviceMac=10:27:BE:25:67:80&split=3c545e3037f85aafa2dd3f59c3edf98a&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Sremska TV
+http://host.phorious.art/validation/4081?deviceMac=10:27:BE:25:67:80&split=5feb1da68ab53ef7bfcf7d6153e0a985&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,TV Kladovo
+http://host.phorious.art/validation/661?deviceMac=10:27:BE:25:67:80&split=3a59403aed9b672697df6dabf33c3294&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,TV Petrovec
+http://host.phorious.art/validation/4820?deviceMac=10:27:BE:25:67:80&split=5520b82f100712febfa0efe743406336&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,TV Lav
+http://host.phorious.art/validation/1490?deviceMac=10:27:BE:25:67:80&split=dbcaa42bb3f29bacf70b52beef62b94d&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,ISTOK TV
+http://host.phorious.art/validation/1478?deviceMac=10:27:BE:25:67:80&split=dbeecf26f36ff72516786edff7c05de7&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,TV Most
+http://host.phorious.art/validation/1351?deviceMac=10:27:BE:25:67:80&split=00ea18fc90586f154c5f3b6f12770595&smart=1
