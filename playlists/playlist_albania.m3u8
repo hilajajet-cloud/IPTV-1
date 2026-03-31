@@ -1,35 +1,283 @@
-#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ALJAZEERA1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ASIANTELEVISION1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AT1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_BA1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_BEIN1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_BG1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CR1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CY1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_DELUXEMUSIC1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_DIRECTVSPORTS1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_DISTROTV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_DO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_DRAFTKINGS1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_DUMMY_CHANNELS.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_EC1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_EG1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_FANDUEL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_HK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_HR1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_HU1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ID1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IN4.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_JM1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_JP1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_JP2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_KE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_KR1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_LT1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_LV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_MT1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_NG1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_NO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_NZ1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PA1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PAC-12.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PH1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PH2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PLEX1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_POWERNATION1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_RAKUTEN1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_RAKUTEN_DE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_RAKUTEN_EN1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_RAKUTEN_ES1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_RAKUTEN_FR1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_RAKUTEN_IT1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_RAKUTEN_NL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_RAKUTEN_PL1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_RALLY_TV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_RO1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_RO2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_RS1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SA1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SA2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SG1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SPORTKLUB1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SSPORTPLUS1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_TBNPLUS1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_THESPORTPLUS1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_TR3.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS2.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_US_SPORTS1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_VN1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_VOA1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ZA1.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_viva-russia.ru.xml.gz, https://epgshare01.online/epgshare01/locomotiontv.xml.gz"
-#EXTINF:-1 tvg-name="Kanali 7 Ⓢ" tvg-logo="https://i.imgur.com/rL2v9pM.png" tvg-id="Kanali7.al" tvg-country="AL" group-title="Albania",Kanali 7 Ⓢ
-https://fe.tring.al/delta/105/out/u/1200_1.m3u8
-#EXTINF:-1 tvg-name="A2 CNN Albania" tvg-logo="https://i.imgur.com/TgO3Lzi.png" tvg-id="A2CNN.al" tvg-country="AL" group-title="Albania",A2 CNN Albania
-https://tv.a2news.com/live/smil:a2cnnweb.stream.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="ABC News Albania Ⓣ" tvg-logo="https://i.imgur.com/aObcudw.png" tvg-id="ABCNewsAlbania.al" tvg-country="AL" group-title="Albania",ABC News Albania Ⓣ
-https://www.twitch.tv/abcnewsal
-#EXTINF:-1 tvg-name="AlbKanale Music TV Ⓢ" tvg-logo="https://i.imgur.com/JdKxscs.png" tvg-id="AlbKanaleMusicTV.al" tvg-country="AL" group-title="Albania",AlbKanale Music TV Ⓢ
-https://albportal.net/albkanalemusic.m3u8
-#EXTINF:-1 tvg-name="Alpo TV" tvg-logo="https://i.imgur.com/Pr4ixiA.png" tvg-id="AlpoTV.al" tvg-country="AL" group-title="Albania",Alpo TV
-https://5d00db0e0fcd5.streamlock.net/7236/7236/playlist.m3u8
-#EXTINF:-1 tvg-name="CNA" tvg-logo="https://i.imgur.com/X3ukD5t.png" tvg-id="CNA.al" tvg-country="AL" group-title="Albania",CNA
-https://live1.mediadesk.al/cnatvlive.m3u8
-#EXTINF:-1 tvg-name="Euronews Albania Ⓨ" tvg-logo="https://i.imgur.com/Skf6vdi.png" tvg-id="EuronewsAlbania.al" tvg-country="AL" group-title="Albania",Euronews Albania Ⓨ
-https://www.youtube.com/@EuronewsAlbania/live
-#EXTINF:-1 tvg-name="News 24 Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/News_24_%28Albania%29.svg/1024px-News_24_%28Albania%29.svg.png" tvg-id="News24.al" tvg-country="AL" group-title="Albania",News 24 Ⓢ
-https://tv.balkanweb.com/news24/livestream/playlist.m3u8
-#EXTINF:-1 tvg-name="Ora News" tvg-logo="https://i.imgur.com/ILZY5bJ.png" tvg-id="OraNews.al" tvg-country="AL" group-title="Albania",Ora News
-https://live1.mediadesk.al/oranews.m3u8
-#EXTINF:-1 tvg-name="Panorama TV Ⓢ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Panorama_logo.svg/512px-Panorama_logo.svg.png" tvg-id="PanoramaTV.al" tvg-country="AL" group-title="Albania",Panorama TV Ⓢ
-http://198.244.188.94/panorama/livestream/playlist.m3u8
-#EXTINF:-1 tvg-name="Report TV" tvg-logo="https://i.imgur.com/yuRDJYY.png" tvg-id="ReportTV.al" tvg-country="AL" group-title="Albania",Report TV
-https://deb10stream.duckdns.org/hls/stream.m3u8
-#EXTINF:-1 tvg-name="Syri" tvg-logo="https://i.imgur.com/4zVyj1M.png" tvg-id="Syri.al" tvg-country="AL" group-title="Albania",Syri
-https://stream.syritv.al/SyriTV/index.m3u8
-#EXTINF:-1 tvg-name="Top News Ⓣ" tvg-logo="https://i.imgur.com/tBAXkOW.png" tvg-id="TopNews.al" tvg-country="AL" group-title="Albania",Top News Ⓣ
-https://www.twitch.tv/topnewsal
-#EXTINF:-1 tvg-name="Tropoja" tvg-logo="https://i.imgur.com/D3hNOVS.png" tvg-id="TropojaTelevizion.al" tvg-country="AL" group-title="Albania",Tropoja
-https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8
-#EXTINF:-1 tvg-name="TV 7 Albania" tvg-logo="https://i.imgur.com/k9WqPLZ.png" tvg-id="TV7Albania.al" tvg-country="AL" group-title="Albania",TV 7 Albania
-https://5d00db0e0fcd5.streamlock.net/7064/7064/playlist.m3u8
-#EXTINF:-1 tvg-name="TV Apollon Ⓢ" tvg-logo="https://i.imgur.com/gUz2AjM.png" tvg-id="TVApollon.al" tvg-country="AL" group-title="Albania",TV Apollon Ⓢ
-https://live.apollon.tv/Apollon-WEB/video.m3u8?token=tnt3u76re30d2
-#EXTINF:-1 tvg-name="Vizion Plus" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Vizion_Plus.svg/512px-Vizion_Plus.svg.png" tvg-id="VizionPlus.al" tvg-country="AL" group-title="Albania",Vizion Plus
-https://fe.tring.al/delta/105/out/u/rdghfhsfhfshs.m3u8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,INFO Kanal
+http://host.phorious.art/validation/463?deviceMac=10:27:BE:25:67:80&split=60f9fcee5b5e7a3a68249686305a534f&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTS 1
+http://host.phorious.art/validation/3?deviceMac=10:27:BE:25:67:80&split=7100ef8924e97c497006694af741bf9c&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTS 2
+http://host.phorious.art/validation/2?deviceMac=10:27:BE:25:67:80&split=d8d6f5175d845cae76d9112c4192ef2c&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTS 3
+http://host.phorious.art/validation/21?deviceMac=10:27:BE:25:67:80&split=2a147ddca12973eaa852922a0c5b7878&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTS Svet
+http://host.phorious.art/validation/182?deviceMac=10:27:BE:25:67:80&split=63a7f5c31a1e6a75060f5b065d31e2f0&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,PrvaTV
+http://host.phorious.art/validation/10?deviceMac=10:27:BE:25:67:80&split=ff502562fd602e2e55d043563c58bb9a&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Pink TV
+http://host.phorious.art/validation/12?deviceMac=10:27:BE:25:67:80&split=6de60e9262e94b4a3aea3468aeb4cb20&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Una TV Srbija
+http://host.phorious.art/validation/1652?deviceMac=10:27:BE:25:67:80&split=acb7a9e5314e2f6c9a5ee475ec862fbe&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,N1 TV
+http://host.phorious.art/validation/271?deviceMac=10:27:BE:25:67:80&split=8ddf20f33d8abf5c3c679faa62c97280&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Kurir TV HD
+http://host.phorious.art/validation/1786?deviceMac=10:27:BE:25:67:80&split=746b3ceca5c0178c4e11be0040e54fdf&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Tanjug TV HD *hevc*
+http://host.phorious.art/validation/1794?deviceMac=10:27:BE:25:67:80&split=2e7ecdafea595fc03e818124b8383e2e&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Blic TV HD
+http://host.phorious.art/validation/1921?deviceMac=10:27:BE:25:67:80&split=a6b9a10f53d3a0c9056ad50c52d9a38c&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,TV K1
+http://host.phorious.art/validation/680?deviceMac=10:27:BE:25:67:80&split=faed5b0e964cbbc21dc0bc2bef67d925&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Insajder TV
+http://host.phorious.art/validation/153?deviceMac=10:27:BE:25:67:80&split=fc13dc4eadd1a8ac2e6cf8f41e2c5325&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Informer TV HD
+http://host.phorious.art/validation/1940?deviceMac=10:27:BE:25:67:80&split=834b786616327c424e4fed1c53d4add7&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Euronews Srbija
+http://host.phorious.art/validation/490?deviceMac=10:27:BE:25:67:80&split=6ad5c120af32b263992a9ca6da7ff104&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Russia Today Balkan
+http://host.phorious.art/validation/1750?deviceMac=10:27:BE:25:67:80&split=f684ab71a28ec53200b9e950e82ddd8e&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Newsmax Balkan
+http://host.phorious.art/validation/1751?deviceMac=10:27:BE:25:67:80&split=23c105c3dc0bedd185818bc9ef9bda66&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,B92
+http://host.phorious.art/validation/24?deviceMac=10:27:BE:25:67:80&split=9370519ee4a55d5103b41a622f0c8270&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Nova TV S
+http://host.phorious.art/validation/1386?deviceMac=10:27:BE:25:67:80&split=9940e9f63a6b280e8bd2aa3ecbc40388&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Nova TV S.
+http://host.phorious.art/validation/677?deviceMac=10:27:BE:25:67:80&split=c8a626fa31d087457d77bc1f5171dfa4&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RedTV Hevc
+http://host.phorious.art/validation/1416?deviceMac=10:27:BE:25:67:80&split=317ba9dcd7d6ad65e983e982a8f3ce9b&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Hype TV
+http://host.phorious.art/validation/1536?deviceMac=10:27:BE:25:67:80&split=be7f4361d9d4436b019a656b4e3b7922&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Prva Plus
+http://host.phorious.art/validation/149?deviceMac=10:27:BE:25:67:80&split=671c81b2684cb2cffbd535cc1c6270d8&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Prva Max
+http://host.phorious.art/validation/511?deviceMac=10:27:BE:25:67:80&split=284bd2f9809a0c17d0d3a558306d1460&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Prva World
+http://host.phorious.art/validation/1260?deviceMac=10:27:BE:25:67:80&split=ba2c8fe0126135f2b5d7b9b93af8a6fd&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Prva Life
+http://host.phorious.art/validation/1655?deviceMac=10:27:BE:25:67:80&split=ea755388afb85a9e8735d16f3367db21&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Prva Kick
+http://host.phorious.art/validation/1653?deviceMac=10:27:BE:25:67:80&split=b7185f2f350c52a596e298704d49829b&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Prva Files
+http://host.phorious.art/validation/1654?deviceMac=10:27:BE:25:67:80&split=674f0e8a8a1ac8190d6e3c50f0c0ff87&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Happy
+http://host.phorious.art/validation/148?deviceMac=10:27:BE:25:67:80&split=2e06a508259c45d072ed3d69219c2d4f&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Happy Reality
+http://host.phorious.art/validation/1126?deviceMac=10:27:BE:25:67:80&split=7e6b70c06fd3ea8315f2f57e8d28ad0c&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Moj Happy Zivot
+http://host.phorious.art/validation/1909?deviceMac=10:27:BE:25:67:80&split=faa6b56a0032bca9edddb70b29e9aa45&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Moja Happy Zemlja
+http://host.phorious.art/validation/1912?deviceMac=10:27:BE:25:67:80&split=a7c320d2dc2c93b4db19d725bcd2571f&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Moja Happy Muzika
+http://host.phorious.art/validation/1911?deviceMac=10:27:BE:25:67:80&split=bfb4e3cf9d1baddaf51b50ba999dde53&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTRS
+http://host.phorious.art/validation/109?deviceMac=10:27:BE:25:67:80&split=9b228b21ef159fa0f37f80f9c1019e9c&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTV 1
+http://host.phorious.art/validation/178?deviceMac=10:27:BE:25:67:80&split=75ed48602e524a266f999f14da1f0e7b&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTV 2
+http://host.phorious.art/validation/399?deviceMac=10:27:BE:25:67:80&split=11d02f40fb6c2cc6e0f42292540378cc&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,STUDIO B
+http://host.phorious.art/validation/942?deviceMac=10:27:BE:25:67:80&split=c882fc77de87e05f93804155a8d9ec1b&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,KCN 1
+http://host.phorious.art/validation/184?deviceMac=10:27:BE:25:67:80&split=018ff70b0197a010250201db1ed94558&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTS Drama
+http://host.phorious.art/validation/1437?deviceMac=10:27:BE:25:67:80&split=3797625d27371c44a3b68b07e5af57ea&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTS Trezor
+http://host.phorious.art/validation/62?deviceMac=10:27:BE:25:67:80&split=bb4c522d31700d65e37455ec0bbbe022&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTS Zivot
+http://host.phorious.art/validation/1120?deviceMac=10:27:BE:25:67:80&split=8e365411ea0f43268d77e7975182760a&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTS Kolo
+http://host.phorious.art/validation/1491?deviceMac=10:27:BE:25:67:80&split=ebf72cb08e1b418a010ad85aed186728&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTS Poletarac
+http://host.phorious.art/validation/1666?deviceMac=10:27:BE:25:67:80&split=bec106a3420c3f24578631f5cee56412&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Hram TV
+http://host.phorious.art/validation/1363?deviceMac=10:27:BE:25:67:80&split=2ecc9b85a8bbdfeac57aad1d5fae80ae&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Blagoslov _TV
+http://host.phorious.art/validation/1541?deviceMac=10:27:BE:25:67:80&split=658d7de1bed9c9f1ab4566f01d22cc02&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Blagovesti TV
+http://host.phorious.art/validation/1544?deviceMac=10:27:BE:25:67:80&split=8325236b7a7453b427f358bfc5282e5b&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,NASA TV - Timisoara
+http://host.phorious.art/validation/1526?deviceMac=10:27:BE:25:67:80&split=b1ccb861b3c4de2bd4637831647392f8&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,KTV Zrenjanin
+http://host.phorious.art/validation/1952?deviceMac=10:27:BE:25:67:80&split=3a7af0342893360c3e8f8b4b6543d030&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,RTV Novi Pazar
+http://host.phorious.art/validation/497?deviceMac=10:27:BE:25:67:80&split=d2e01d12b85b21c9b55cde57de80cdfb&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Santos TV
+http://host.phorious.art/validation/1381?deviceMac=10:27:BE:25:67:80&split=3c545e3037f85aafa2dd3f59c3edf98a&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,Sremska TV
+http://host.phorious.art/validation/4081?deviceMac=10:27:BE:25:67:80&split=5feb1da68ab53ef7bfcf7d6153e0a985&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,TV Kladovo
+http://host.phorious.art/validation/661?deviceMac=10:27:BE:25:67:80&split=3a59403aed9b672697df6dabf33c3294&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,TV Petrovec
+http://host.phorious.art/validation/4820?deviceMac=10:27:BE:25:67:80&split=5520b82f100712febfa0efe743406336&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,TV Lav
+http://host.phorious.art/validation/1490?deviceMac=10:27:BE:25:67:80&split=dbcaa42bb3f29bacf70b52beef62b94d&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,ISTOK TV
+http://host.phorious.art/validation/1478?deviceMac=10:27:BE:25:67:80&split=dbeecf26f36ff72516786edff7c05de7&smart=1
+
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 6 rev: 250 Safari/533.3
+#EXTINF:-1 ,TV Most
+http://host.phorious.art/validation/1351?deviceMac=10:27:BE:25:67:80&split=00ea18fc90586f154c5f3b6f12770595&smart=1
